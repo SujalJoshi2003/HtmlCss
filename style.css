@@ -1,0 +1,95 @@
+.border-box{
+    border:2px ridge black;
+    height:75px;
+    width:90%;
+    margin-left:2%;
+    margin-top:2%;
+    min-width:80%;
+    max-width:100%;
+   display: flex;
+   flex-direction: row;
+   gap:20px;
+   align-items: center;
+   justify-content: flex-start;
+   background-color: white;
+}
+.content{
+    
+    justify-self: flex-end;
+    margin-left: auto;
+    margin-right:1%;
+    
+}
+img{
+    width:150px;
+    
+}
+body{
+    background-image: url(rayban.png);
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+
+}
+.some-info{
+    margin-top: 20%;
+    border:1px hidden black;
+    background-color:transparent;
+    font-size:20px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    min-width:60%;
+    font-weight: lighter;
+    color:beige;
+}
+.model1{
+    width:30%;
+    height:30%;
+    padding-top:30%;
+    padding-left:1%;
+}
+.third-page{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.looks{
+    padding-top:40%;
+    font-size:20px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color:beige;
+    
+}
+.sale{
+    font-size:30px;
+    color: beige;
+    padding-top:30%;
+    padding-left:5%;
+}
+.history{
+    text-decoration: none;
+    color:black;
+    font-weight: solid;
+}
+.social{
+    background-color:brown;
+    color:beige;
+    font-size:20px;
+    padding-left:5px;
+    min-width:50%;
+    margin-top:40%;
+    padding-top:1px;
+    padding-bottom: 1px;
+}
+.last{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
